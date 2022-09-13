@@ -45,6 +45,12 @@ function Projects() {
       imageSrc: todoList,
     },
     {
+      name: "Cv Application",
+      url: "https://mustafaozgur59.github.io/Top-Cv/",
+      repo: "https://github.com/MustafaOzgur59/Top-Cv",
+      imageSrc: cvApp,
+    },
+    {
       name: "Etch a Sketch",
       url: "https://mustafaozgur59.github.io/Etch-a-Sketch/",
       repo: "https://github.com/MustafaOzgur59/Etch-a-Sketch",
@@ -186,6 +192,11 @@ const ProjectWrapper = styled.div`
     a:focus {
       color: white;
       text-decoration: none;
+      cursor: pointer;
+    }
+
+    a:hover {
+      color: #d24141;
     }
   }
 `;

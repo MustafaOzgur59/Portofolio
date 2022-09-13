@@ -7,7 +7,7 @@ function Navbar() {
       <LinkWrapper class="link-container">
         <LinkContainer class="links">
           <button>
-            <a href="#display">Home</a>
+            <a href="#hero">Home</a>
           </button>
           <button>
             <a href="#about">About</a>

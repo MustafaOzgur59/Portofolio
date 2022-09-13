@@ -19,15 +19,7 @@ function About() {
               Hi there! I&apos;m Mustafa, currently a computer engineering
               student.{" "}
             </p>
-            <p>
-              <i>
-                Growing up, I always had an affinity for everything tech
-                related. Jailbreaking my first iPod, installing custom ROMs on
-                my android phones (and nearly bricking them) or modding my
-                gaming consoles were some of the things that developed my
-                problem solving skills.
-              </i>
-            </p>
+
             <p>
               Currently I&apos;m learning web development, creating stuff,
               implementing eye pleasing designs and learning new technologies
