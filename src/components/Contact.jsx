@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import { SectionHeader } from "../styles";
 import emailjs from "@emailjs/browser";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Contact() {
   const form = useRef(null);
@@ -47,9 +48,9 @@ function Contact() {
         <h2> Contact</h2>
       </SectionHeader>
       <p>
-        I&apos;m currently looking for a role as a frontend developer. Whether
-        you have a question, an offer or just want to chat, send me a message
-        and I will get back to you!
+        I&apos;m currently looking for a role as a developer or an internship
+        role. Whether you have a question, an offer or just want to chat, send
+        me a message and I will get back to you!
       </p>
       <FormWrapper className="form" ref={form} onSubmit={sendEmail}>
         <input
@@ -88,6 +89,22 @@ function Contact() {
           <span className="button-text-span"></span>
         </div>
       </FormWrapper>
+      <IconWrapper>
+        <a
+          href="https://www.linkedin.com/in/mustafaozgurhocaoglu/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/MustafaOzgur59"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub />
+        </a>
+      </IconWrapper>
     </ContactWrapper>
   );
 }
@@ -121,8 +138,22 @@ const FormWrapper = styled.form`
     border-radius: 8px;
     border: none;
   }
-  div span {
-    margin-left: 1rem;
+`;
+
+const IconWrapper = styled.div`
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+  a {
+    width: 40%;
+    heigth: 4rem;
+    color: white;
+    * {
+      width: 50%;
+      height: 4rem;
+    }
   }
 `;
 

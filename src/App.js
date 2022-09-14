@@ -20,9 +20,9 @@ const Wrapper = styled.div`
   background-color: #1a1a2d;
   max-width: 100vw;
   min-height: 100vh;
-  padding: 0 2rem;
   color: white;
   padding: 0rem 10rem;
+  overflow-x: clip;
 `;
 
 export default App;
