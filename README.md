@@ -1,6 +1,6 @@
-# Shopping cart
+# Portofolio
 
-A simple portofolip React app.Done according to The Origin Project's curriculum.
+A simple portofolio React app.Done according to The Origin Project's curriculum.
 
 [Live Demo](https://portofolio-one-tau.vercel.app/) :point_left:
 
